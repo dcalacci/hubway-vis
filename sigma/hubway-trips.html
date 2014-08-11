@@ -18,7 +18,6 @@
     <div id="container"></div>
     <script src="sigma.min.js"></script>
     <script src="plugins/sigma.parsers.gexf.min.js"></script>
-    <script src="plugins/sigma.layout.forceAtlas2.min.js"></script>
     <script>
 
      // method to get neighbors for a node
@@ -55,6 +54,9 @@
          labelThreshold: 6,
          defaultLabelSize: 10,
          defaultEdgeType: 'curvedArrow',
+         hideEdgesOnMove: true,
+         batchEdgesDrawing: true,
+         scalingMode: "outside"
        }
      });
 
@@ -85,7 +87,6 @@
            c = nodes[i]['color'];
            nodes[i]['color'] = rgba(c);
          }
-         console.log(edges[0]);
 
          // change edge type
          for(i = 0; i < edges_len; i++) {
