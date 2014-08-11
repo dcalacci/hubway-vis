@@ -1,0 +1,132 @@
+id,terminal,station,municipality,lat,lng,nb_docks,install_date,last_day
+3,B32006,Colleges of the Fenway,Boston,42.340021,-71.100812,15,4/8/2013,11/27/2013
+4,C32000,Tremont St. at Berkeley St.,Boston,42.345392,-71.069616,15,4/8/2013,11/27/2013
+5,B32012,Northeastern U / North Parking Lot,Boston,42.341814,-71.090179,15,4/26/2013,11/27/2013
+6,D32000,Cambridge St. at Joy St.,Boston,42.361285,-71.06514,15,4/8/2013,11/21/2013
+7,A32000,Fan Pier,Boston,42.353412,-71.044624,15,4/8/2013,11/27/2013
+8,A32001,Union Square - Brighton Ave. at Cambridge St.,Boston,42.353334,-71.137313,15,4/8/2013,11/27/2013
+9,A32002,Agganis Arena - 925 Comm Ave.,Boston,42.351313,-71.116174,19,4/8/2013,11/19/2013
+10,A32003,B.U. Central - 725 Comm. Ave.,Boston,42.350075,-71.105884,19,4/8/2013,11/19/2013
+11,A32004,Longwood Ave / Binney St,Boston,42.338629,-71.1065,15,4/8/2013,11/27/2013
+12,B32002,Ruggles Station / Columbus Ave.,Boston,42.335911,-71.088496,15,4/8/2013,11/27/2013
+14,B32003,HMS / HSPH - Ave. Louis Pasteur at Longwood Ave.,Boston,42.337171,-71.102797,17,4/8/2013,11/27/2013
+15,A32005,Harvard Real Estate - Brighton Mills - 370 Western Ave,Boston,42.361667,-71.13802,15,4/8/2013,11/27/2013
+16,C32003,Back Bay / South End Station,Boston,42.347433,-71.076163,19,4/8/2013,11/27/2013
+17,A32006,Harvard University Housing - 111 Western Ave. at Soldiers Field Park,Boston,42.365074,-71.119581,15,4/8/2013,11/27/2013
+18,A32007,Harvard Real Estate - 219 Western Ave. at North Harvard St.,Boston,42.36337,-71.129791,15,4/8/2013,10/29/2013
+19,A32008,Buswell Park,Boston,42.347527,-71.105828,15,4/8/2013,11/19/2013
+20,B32004,Aquarium Station - 200 Atlantic Ave.,Boston,42.35977,-71.051601,19,4/8/2013,11/27/2013
+21,C32007,Prudential Center / Belvidere,Boston,42.345959,-71.082578,25,4/8/2013,11/27/2013
+22,A32010,South Station - 700 Atlantic Ave.,Boston,42.352175,-71.055547,47,4/8/2013,11/27/2013
+24,B32007,Seaport Square - Seaport Blvd. at Boston Wharf,Boston,42.351821,-71.045461,19,4/8/2013,11/27/2013
+25,A32009,Tremont St / W Newton St,Boston,42.341332,-71.076847,15,4/8/2013,11/27/2013
+26,D32002,Washington St. at Waltham St.,Boston,42.341522,-71.068922,15,4/8/2013,11/20/2013
+27,C32001,Roxbury Crossing Station,Boston,42.331567,-71.094734,15,4/8/2013,11/27/2013
+29,A32011,Innovation Lab - 125 Western Ave. at Batten Way,Boston,42.363732,-71.124565,15,4/8/2013,11/27/2013
+30,B32013,Brigham Cir / Huntington Ave,Boston,42.334073,-71.105221,15,4/9/2013,11/18/2013
+31,B32014,Seaport Hotel,Boston,42.348833,-71.041747,15,4/8/2013,10/22/2013
+32,B32015,Landmark Centre,Boston,42.343912,-71.102221,11,4/8/2013,11/27/2013
+33,B32010,Kenmore Sq / Comm Ave,Boston,42.349046,-71.096831,19,4/8/2013,11/19/2013
+34,B32009,Overland St at Brookline Ave,Boston,42.346171,-71.099855,,,
+36,D32005,Boston Public Library - 700 Boylston St.,Boston,42.349673,-71.077303,25,5/2/2013,11/27/2013
+39,C32006,Washington St. at Rutland St.,Boston,42.338623,-71.074182,19,4/8/2013,11/20/2013
+40,D32006,Lewis Wharf - Atlantic Ave.,Boston,42.363871,-71.050877,15,4/8/2013,11/27/2013
+41,A32012,Packard's Corner - Comm. Ave. at Brighton Ave.,Boston,42.352261,-71.123831,19,4/8/2013,11/27/2013
+42,D32007,Boylston St. at Arlington St.,Boston,42.352096,-71.070378,23,4/8/2013,11/21/2013
+43,D32008,Rowes Wharf - Atlantic Ave,Boston,42.357143,-71.050699,15,4/8/2013,11/27/2013
+44,D32009,Faneuil Hall - Union St. at North St.,Boston,42.360583,-71.056868,19,4/8/2013,11/22/2013
+45,B32011,Yawkey Way at Boylston St.,Boston,42.344763,-71.09788,19,4/9/2013,11/25/2013
+46,B32005,Christian Science Plaza,Boston,42.343864,-71.085918,19,4/8/2013,11/27/2013
+47,D32010,Cross St. at Hanover St.,Boston,42.362811,-71.056067,18,4/8/2013,11/27/2013
+48,D32012,Post Office Square,Boston,42.356755,-71.055407,19,4/8/2013,11/22/2013
+49,D32011,Stuart St. at Charles St.,Boston,42.351146,-71.066289,19,4/8/2013,11/27/2013
+50,D32013,Boylston St / Berkeley St,Boston,42.350989,-71.073644,15,5/2/2013,11/21/2013
+51,C32005,Washington St. at Lenox St.,Boston,42.3348756,-71.0790969,15,4/8/2013,11/20/2013
+52,B32000,Newbury St / Hereford St,Boston,42.348717,-71.085954,19,4/8/2013,11/25/2013
+53,B32016,Beacon St / Mass Ave,Boston,42.350851,-71.089886,19,4/8/2013,11/25/2013
+54,D32014,Tremont St / West St,Boston,42.354979,-71.063348,15,4/8/2013,11/27/2013
+55,B32018,Boylston / Mass Ave,Boston,42.347265,-71.088088,15,4/8/2013,11/25/2013
+57,C32004,Columbus Ave. at Mass. Ave.,Boston,42.340799,-71.081572,11,4/8/2013,11/27/2013
+58,D32017,The Esplanade - Beacon St. at Arlington St.,Boston,42.355596,-71.07278,19,4/8/2013,11/27/2013
+59,D32015,Chinatown Gate Plaza - Surface Rd. at Beach St.,Boston,42.351356,-71.059367,15,4/8/2013,11/27/2013
+62,B32019,Longwood Ave/Riverway,Boston,42.340299,-71.109927,15,4/8/2013,11/27/2013
+63,C32009,Dorchester Ave. at Gillette Park,Boston,42.344023,-71.057054,15,4/8/2013,11/27/2013
+64,C32010,Congress / Sleeper,Boston,42.3511,-71.0496,19,4/8/2013,11/22/2013
+65,D32018,Boston Convention & Exhibition Center,Boston,42.3475,-71.0441,19,4/8/2013,11/27/2013
+66,A32017,Allston Green District - Commonwealth Ave & Griggs St,Boston,42.348607,-71.13401,15,4/9/2013,11/19/2013
+67,M32006,MIT at Mass Ave / Amherst St,Cambridge,42.3581,-71.093198,27,4/8/2013,11/27/2013
+68,M32011,Central Square at Mass Ave / Essex St,Cambridge,42.36507,-71.1031,19,4/8/2013,11/27/2013
+69,K32001,Coolidge Corner - Beacon St @ Centre St,Brookline,42.341598,-71.123338,19,4/8/2013,11/27/2013
+70,M32016,Harvard Kennedy School at Bennett St / Eliot St,Cambridge,42.372244,-71.121851,23,4/8/2013,11/27/2013
+71,S32004,Conway Park - Somerville Avenue,Somerville,42.383405,-71.107593,15,4/8/2013,11/27/2013
+72,M32003,One Broadway / Kendall Sq at Main St / 3rd St,Cambridge,42.362613,-71.084105,15,4/8/2013,11/27/2013
+73,M32017,Harvard Square at Brattle St / Eliot St,Cambridge,42.373231,-71.120886,15,4/8/2013,11/27/2013
+74,M32018,Harvard Square at Mass Ave/ Dunster,Cambridge,42.373268,-71.118579,19,4/8/2013,11/27/2013
+75,M32009,Lafayette Square at Mass Ave / Main St / Columbia St,Cambridge,42.363562,-71.10042,19,4/8/2013,11/27/2013
+76,M32012,Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St,Cambridge,42.366426,-71.105495,17,4/8/2013,11/27/2013
+77,S32001,Somerville City Hall,Somerville,42.386428,-71.096413,15,4/8/2013,11/27/2013
+78,S32002,Union Square - Somerville,Somerville,42.379637,-71.095319,19,4/8/2013,11/27/2013
+79,S32003,Beacon St at Washington / Kirkland,Somerville,42.378551,-71.106541,15,4/8/2013,11/27/2013
+80,M32005,MIT Stata Center at Vassar St / Main St,Cambridge,42.362429,-71.090188,25,4/8/2013,11/27/2013
+81,D32019,Boylston St / Washington St,Boston,42.352409,-71.062679,15,4/8/2013,11/22/2013
+83,C32011,South Bay Plaza,Boston,42.325941,-71.065928,15,4/8/2013,11/20/2013
+84,M32019,CambridgeSide Galleria - CambridgeSide PL at Land Blvd,Cambridge,42.366981,-71.076472,15,4/8/2013,11/27/2013
+86,K32003,Brookline Village - Station Street @ MBTA,Brookline,42.332799,-71.116205,15,4/8/2013,11/27/2013
+87,M32014,Harvard University Housing - 115 Putnam Ave at Peabody Terrace,Cambridge,42.366621,-71.114214,15,4/8/2013,11/27/2013
+88,M32010,Inman Square at Vellucci Plaza / Hampshire St,Cambridge,42.374035,-71.101427,19,4/8/2013,11/27/2013
+89,M32020,Harvard Law School at Mass Ave / Jarvis St,Cambridge,42.379011,-71.119945,19,4/8/2013,11/27/2013
+90,M32001,Lechmere Station at Cambridge St / First St,Cambridge,42.3707,-71.07711,19,4/8/2013,11/27/2013
+91,M32002,One Kendall Square at Hampshire St / Portland St,Cambridge,42.366277,-71.09169,21,4/8/2013,11/27/2013
+92,C32014,University of Massachusetts Boston,Boston,42.311819,-71.035705,19,4/8/2013,11/27/2013
+93,C32013,JFK / UMASS Station,Boston,42.320494,-71.051122,15,4/8/2013,11/27/2013
+94,D32020,Charlestown - Main St at Austin St,Boston,42.375603,-71.064608,15,4/8/2013,11/27/2013
+95,M32007,Cambridge St - at Columbia St / Webster Ave,Cambridge,42.372969,-71.094445,15,4/8/2013,11/27/2013
+96,M32013,Cambridge Main Library at Broadway / Trowbridge St,Cambridge,42.373379,-71.111075,19,4/8/2013,11/27/2013
+98,D32021,Charlestown - Warren St at Chelsea St,Boston,42.371848,-71.060292,19,4/8/2013,11/27/2013
+99,B32008,Mayor Thomas M. Menino - Government Center,Boston,42.35892,-71.057629,21,4/8/2013,11/27/2013
+100,B32017,Dudley Square,Boston,42.328654,-71.084198,15,4/8/2013,11/18/2013
+101,B32020,BIDMC - Brookline at Burlington St,Boston,42.345733,-71.100694,15,9/24/2013,11/25/2013
+102,C32002,Boston Medical Center -  East Concord at Harrison Ave,Boston,42.336437,-71.073089,19,5/23/2013,11/20/2013
+103,C32008,Boylston at Fairfield,Boston,42.348762,-71.082383,19,5/2/2013,11/21/2013
+104,C32012,Andrew Station - Dorchester Ave at Humboldt Pl,Boston,42.330716,-71.057044,15,6/3/2013,11/18/2013
+105,C32015,Mt Pleasant Ave / Dudley Town Common,Boston,42.325333,-71.075354,15,4/8/2013,11/18/2013
+106,C32016,West Broadway at Dorchester St,Boston,42.335693,-71.045859,19,9/24/2013,11/20/2013
+107,C32017,South Boston Library - 646 East Broadway,Boston,42.335741,-71.03877,15,9/24/2013,11/27/2013
+108,C32018,E. Cottage St at Columbia Rd,Boston,42.320561,-71.06198,19,9/26/2013,11/20/2013
+109,C32019,Upham's Corner - Ramsey St at Dudley St,Boston,42.317225,-71.065421,15,10/3/2013,11/18/2013
+110,D32001,New Balance - Guest St. at Life St.,Boston,42.356975,-71.145442,15,4/26/2013,11/19/2013
+111,D32003,TD Garden - Causeway at Portal Park #2,Boston,42.366222,-71.059914,27,4/8/2013,11/27/2013
+112,D32004,Franklin St. / Arch St.,Boston,42.355402,-71.058087,23,4/8/2013,11/22/2013
+113,D32016,Charles Circle - Charles St. at Cambridge St.,Boston,42.36069,-71.070884,15,4/8/2013,11/21/2013
+114,D32022,TD Garden - Causeway at Portal Park #1,Boston,42.365942,-71.060515,27,4/8/2013,11/27/2013
+115,D32023,Spaulding Rehabilitation Hospital - Charlestown Navy Yard,Boston,42.378338,-71.048927,19,5/10/2013,11/27/2013
+116,D32024,Charles St at Beacon St,Boston,42.356052,-71.069849,15,9/24/2013,11/21/2013
+117,D32025,Milk St at India St,Boston,42.358508,-71.052984,19,9/25/2013,11/22/2013
+118,D32026,Hayes Square at Vine St.,Boston,42.377022,-71.056605,19,9/26/2013,11/27/2013
+119,D32027,New Balance Store - Boylston at Dartmouth,Boston,42.350413,-71.07655,19,10/29/2013,11/27/2013
+120,E32001,JP Monument - South St at Centre St,Boston,42.309467,-71.115645,19,9/25/2013,11/23/2013
+121,E32002,JP Centre - Centre Street at Myrtle Street,Boston,42.31309,-71.114175,15,9/25/2013,11/23/2013
+122,E32003,Hyde Square at Barbara St,Boston,42.320998,-71.110833,15,9/25/2013,11/23/2013
+123,E32004,Egleston Square at Columbus Ave,Boston,42.315692,-71.098634,15,9/25/2013,11/27/2013
+124,E32005,Green St T,Boston,42.310579,-71.107341,15,10/9/2013,11/23/2013
+125,E32006,Jackson Square T at Centre St,Boston,42.322913,-71.100164,23,10/9/2013,11/23/2013
+126,K32002,Washington Square at Washington St. / Beacon St.,Brookline,42.339335,-71.13493,15,4/26/2013,11/27/2013
+127,K32004,JFK Crossing at Harvard St. / Thorndike St.,Brookline,42.346563,-71.128374,15,4/8/2013,11/27/2013
+128,M32004,Kendall T at Main St,Cambridge,42.362457,-71.08497,19,4/8/2013,11/27/2013
+129,M32015,Harvard University River Houses / Plympton St at Memorial Drive,Cambridge,42.369832,-71.118201,19,4/26/2013,11/27/2013
+130,M32021,Harvard University Gund Hall at Quincy St / Kirkland S,Cambridge,42.376369,-71.114025,15,4/8/2013,11/27/2013
+131,M32022,Lower Cambridgeport at Magazine St/Riverside Rd,Cambridge,42.356954,-71.113687,19,4/8/2013,11/27/2013
+132,M32023,Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St,Cambridge,42.377945,-71.116865,17,4/8/2013,11/27/2013
+133,M32024,Harvard University Radcliffe Quadrangle at Shepard St / Garden St,Cambridge,42.380287,-71.125107,19,4/8/2013,11/27/2013
+134,M32025,Mass Ave / Linear Park,Cambridge,42.397828,-71.130516,19,7/2/2013,11/27/2013
+135,M32026,359 Broadway - Broadway at Fayette Street,Cambridge,42.370803,-71.104412,19,7/2/2013,11/27/2013
+136,M32027,Biogen Idec - Binney St / Sixth St,Cambridge,42.366095,-71.086388,19,8/9/2013,11/27/2013
+137,M32029,Porter Square Station,Cambridge,42.387995,-71.119084,19,6/17/2013,11/27/2013
+138,S32005,Wilson Square,Somerville,42.385582,-71.113341,15,4/8/2013,11/27/2013
+139,S32006,Davis Square,Somerville,42.396969,-71.123024,25,4/8/2013,11/27/2013
+140,S32007,Ball Square,Somerville,42.400146,-71.112708,15,4/8/2013,11/27/2013
+141,S32008,Powder House Circle,Somerville,42.400877,-71.116772,15,4/8/2013,11/27/2013
+142,S32009,Packard Ave / Powderhouse Blvd,Somerville,42.40449,-71.123413,15,7/10/2013,11/27/2013
+143,S32010,Somerville Hospital at Highland Ave / Crocker St,Somerville,42.39082,-71.10942,15,7/10/2013,11/27/2013
+144,S32011,Teele Square at 239 Holland St,Somerville,42.402763,-71.126908,15,7/10/2013,11/27/2013
+145,S32012,Summer St at Cutter St,Somerville,42.394002,-71.120406,15,10/9/2013,11/27/2013
