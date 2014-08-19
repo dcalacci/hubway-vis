@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>Congressional N-gram similarity</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	  <meta name="description" content="Visualizing congressional n-gram similarity" />
+	  <meta name="keywords" content="congress, data science, data visualization, sigma.js" />
+	  <meta name="author" content="Dan Calacci" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div id="graph-container">
+      <div id="graph">
+      </div>
+    </div>
+
+    <script src="{{url_for('static', filename='sigma.min.js')}}"></script>
+    <script src="{{url_for('static', filename='plugins/sigma.parsers.gexf.min.js')}}"></script>
+    <script src="{{url_for('static', filename='graph.js')}}"></script>
+  </body>
+</html>

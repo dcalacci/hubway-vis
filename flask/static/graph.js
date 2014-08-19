@@ -19,9 +19,9 @@ var g = {
 // Create new Sigma instance in graph-container div (use your div name here) 
 s = new sigma({
     graph: g,
-    container: 'container',
+    container: 'graph',
     renderer: {
-        container: document.getElementById('container'),
+        container: document.getElementById('graph'),
         type: 'canvas'
     },
     settings: {
@@ -46,7 +46,7 @@ function rgba(c) {
 
 
 sigma.parsers.gexf(
-    'trips_gephi.gexf',
+    'static/trips_gephi.gexf',
     s,
     function(s) {
         // this below adds x, y attributes as well as size = degree of the node 
