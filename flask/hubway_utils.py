@@ -18,3 +18,13 @@ print "trips loaded! Ready to roll!"
 
 def get_station_info(node_id):
     return stations.ix[node_id]
+
+
+def get_station_timeseries(station_id, freq='1d', epoch=True):
+    """Returns a timeseries of trip numbers for the given station
+        and frequency.
+    """
+    trips_df = trips[trips.start_station == str(station_id)]
+    trips_df = trips_df.groupby(['start_date']).size()
+    trips_df = trips_df.resample(freq, how='sum').fillna(0)
+    return trips_df

@@ -12,17 +12,18 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
   </head>
   <body>
 
     <div id="graph-container">
       <div id="info-bar">
         <div id="station-info">
-          <span id="station-name"></span>
-          <span id="station-town"></span>
-          <div class="clear"></div>
+            <span id="station-name"></span>
+            <span id="station-town"></span>
+            <div class="clear"></div>
         </div>
-
+        <div id="line-graph-container"></div>
       </div>
       <div id="graph">
       </div>
@@ -33,5 +34,6 @@
     <script src="{{url_for('static', filename='plugins/sigma.parsers.gexf.min.js')}}"></script>
     <script src="{{url_for('static', filename='graph.js')}}"></script>
     <script src="{{url_for('static', filename='frontend.js')}}"></script>
+    <script src="{{url_for('static', filename='line-graph.js')}}"></script>
   </body>
 </html>

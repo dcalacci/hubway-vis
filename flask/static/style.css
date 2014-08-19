@@ -35,10 +35,11 @@ body {
 
 #info-bar {
     min-height: 20%;
+    max-height: 20%;
     min-width: 100%;
     position: absolute;
     bottom: 0;
-    background-color: rgba(161, 161, 161, 0.52);
+    background-color: rgba(116, 116, 116, 0.56);
     z-index: 10;
 }
 
@@ -48,6 +49,7 @@ body {
 
 #station-name, #station-town {
     padding: 0 0 0 1%;
+    margin-left: 40px;
 }
 
 #station-name {
@@ -61,6 +63,33 @@ body {
 #station-town {
     float: left;
     clear: left;
+    font-weight: bold;
     position: relative;
     display: inline-block;
+}
+
+#line-graph-container {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    z-index: -1;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: rgba(148, 148, 148, 0.76);
+  shape-rendering: crispEdges;
+  font-size: 20%;
+}
+
+.x.axis path {
+  display: none;
+  font-size: 20%;
+}
+
+.line {
+  fill: none;
+  stroke: rgba(255, 131, 16, 0.77);
+  stroke-width: 1.5px;
 }
