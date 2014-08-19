@@ -105,6 +105,12 @@ sigma.parsers.gexf(
 
 
             s.refresh();
+
+            $.get("/get_station_info",
+                 {'nodeid': nodeId},
+                 function(data) {
+                     console.log("received:" + data);
+                 });
         });
 
         s.bind('clickStage', function(e) {
@@ -121,4 +127,3 @@ sigma.parsers.gexf(
 
     }
 );
-
