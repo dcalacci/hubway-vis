@@ -13,7 +13,7 @@ def root():
 def station_info():
     station_id = int(request.args.get('nodeid').split('.')[0])
     info = hubway_utils.get_station_info(station_id)
-    return info.to_json()
+    return jsonify(info)
 
 
 if __name__ == '__main__':

@@ -11,15 +11,37 @@ body {
     font-weight: 300;
 }
 
+
+/* graph */
+
 #graph-container {
     height: 100%;
     max-width: 100%;
+    width: 100%;
 }
 
 #graph {
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     margin: auto;
     background-color:#525252;
     position: relative;
+}
+
+/* station info */
+
+#station-info {
+    min-height: 20%;
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(161, 161, 161, 0.52);
+    z-index: 10;
+}
+
+#station-name {
+    position: absolute;
+    top:0px;
+    left: 10px;
+    font-size: 200%;
 }
