@@ -29,8 +29,11 @@ body {
 }
 
 /* station info */
+.clear {
+    clear: both;
+}
 
-#station-info {
+#info-bar {
     min-height: 20%;
     min-width: 100%;
     position: absolute;
@@ -39,9 +42,25 @@ body {
     z-index: 10;
 }
 
+#station-info {
+    min-height: 100%;
+}
+
+#station-name, #station-town {
+    padding: 0 0 0 1%;
+}
+
 #station-name {
-    position: absolute;
-    top:0px;
-    left: 10px;
+    position: relative;
+    float: left;
+    clear: left;
     font-size: 200%;
+    display: inline-block;
+}
+
+#station-town {
+    float: left;
+    clear: left;
+    position: relative;
+    display: inline-block;
 }
