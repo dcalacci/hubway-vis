@@ -20,6 +20,8 @@ function updateStationInfo(node_id) {
 //                console.log('fading in...');
               })
               $('#station-info').show('slide', {direction: 'left'}, 500);
+
+              updatePieChart(node_id);
           });
 }
 
@@ -29,6 +31,14 @@ function updateTimeSeries(node_id, fade) {
           function(data) {
             renderGraph(data['res'], fade);
           });
+}
+
+function updatePieChart(node_id) {
+  $.get('/get_top_destinations',
+        {'nodeid': node_id},
+        function(data) {
+          change(data['res']);
+        });
 }
 
 function updateGraphSize() {
@@ -46,3 +56,5 @@ $(function() {
     });
     $(window).resize();
 });
+
+

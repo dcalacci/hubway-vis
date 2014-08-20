@@ -1,0 +1,1 @@
+web: gunicorn hubway_viz:app --log-file=-

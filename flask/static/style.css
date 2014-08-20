@@ -4,13 +4,14 @@ html, body {
     background-color:#525252;
     height: 100%;
     width: 100%;
+//    color: rgba(30, 30, 30, 0.8);
+    color: rgba(213, 213, 213, 0.75);
 }
 
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
 }
-
 
 /* graph */
 
@@ -39,17 +40,22 @@ body {
     min-width: 100%;
     position: absolute;
     bottom: 0;
-    background-color: rgba(116, 116, 116, 0.56);
+    background-color: rgba(120, 120, 120, 0.65);
     z-index: 10;
 }
 
 #station-info {
-    min-height: 100%;
+    position: absolute;
+    top: 0px;
+    min-height: 20%;
+    width: 60%;
+    z-index: 15;  
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 #station-name, #station-town {
     padding: 0 0 0 1%;
-    margin-left: 40px;
 }
 
 #station-name {
@@ -58,12 +64,12 @@ body {
     clear: left;
     font-size: 200%;
     display: inline-block;
+    font-weight: bold;
 }
 
 #station-town {
     float: left;
     clear: left;
-    font-weight: bold;
     position: relative;
     display: inline-block;
 }
@@ -90,6 +96,26 @@ body {
 
 .line {
   fill: none;
-  stroke: rgba(255, 131, 16, 0.77);
+//  stroke: rgba(255, 131, 16, 0.65);
+  stroke: rgba(45, 45, 45, 0.80);
   stroke-width: 1.5px;
+}
+
+#pie-chart-container {
+    width: 40%;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    margin-bottom: 5px;
+}
+
+path.slice{
+    stroke-width:2px;
+}
+
+polyline{
+    opacity: .3;
+    stroke: black;
+    stroke-width: 2px;
+    fill: none;
 }

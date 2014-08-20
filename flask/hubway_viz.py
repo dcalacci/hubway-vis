@@ -27,9 +27,17 @@ def station_info():
 def station_timeseries():
     station_id = int(request.args.get('nodeid').split('.')[0])
     timeseries = hubway_utils.get_station_timeseries(station_id)
-    data = json.loads(timeseries.to_json(date_format='iso'))
-    d = sorted([{'date': str(k.split('T')[0]), 'numtrips': v} for k, v in data.items()])
+    data = {str(k).split()[0]: v for k, v in dict(timeseries).iteritems()}
+    d = sorted([{'date': k, 'numtrips': v} for k, v in data.items()])
     return jsonify({'res': d})
+
+
+@app.route('/get_top_destinations', methods=['GET'])
+def get_top_destinations():
+    station_id = int(request.args.get('nodeid').split('.')[0])
+    res = hubway_utils.top_destinations(station_id)
+    res = [{'label': hubway_utils.stations.ix[k].station, 'value': v} for k, v in res.iteritems()]
+    return jsonify({'res': res})
 
 
 if __name__ == '__main__':
