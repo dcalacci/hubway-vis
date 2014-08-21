@@ -3,6 +3,8 @@ hubway-vis
 
 data visualization(s) of hubway data.
 
+[**Live Here**](http://www.dcalacci.net/dataviz/hubway/)
+
 ## data
 
 Contains the original data retrieved from the
