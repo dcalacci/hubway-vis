@@ -4,7 +4,7 @@ import time
 import json
 
 app = Flask(__name__)
-app.config['SERVER_NAME'] = '127.0.0.1:5001'
+# app.config['SERVER_NAME'] = '127.0.0.1:5001'
 
 
 def convert_to_epoch(dt):

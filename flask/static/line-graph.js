@@ -13,7 +13,7 @@ function renderGraph(data, fade) {
 
   var margin = {top: 10, right: 10, bottom: 25, left: 25},
       height = $('#info-bar').height() - margin.top - margin.bottom;
-      width = ($('#info-bar').width() - margin.left - margin.right) * .6;
+      width = ($('#info-bar').width() - margin.left - margin.right) * .55;
 
 
   var x = d3.time.scale()
