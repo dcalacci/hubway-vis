@@ -1,5 +1,5 @@
 function updateStationInfo(node_id) {
-    $.get("/get_station_info",
+    $.get($SCRIPT_ROOT + '/get_station_info',
           {'nodeid': node_id},
           function(data) {
               console.log(data);
@@ -26,7 +26,7 @@ function updateStationInfo(node_id) {
 }
 
 function updateTimeSeries(node_id, fade) {
-    $.get('/get_station_timeseries',
+    $.get($SCRIPT_ROOT + '/get_station_timeseries',
           {'nodeid': node_id},
           function(data) {
             renderGraph(data['res'], fade);
@@ -34,7 +34,7 @@ function updateTimeSeries(node_id, fade) {
 }
 
 function updatePieChart(node_id) {
-  $.get('/get_top_destinations',
+  $.get($SCRIPT_ROOT + '/get_top_destinations',
         {'nodeid': node_id},
         function(data) {
           change(data['res']);
