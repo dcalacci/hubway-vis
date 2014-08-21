@@ -1,9 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
+from reverse_proxied import ReverseProxied
 import hubway_utils
 import time
 import json
 
 app = Flask(__name__)
+app.wsgi_app = ReverseProxied(app.wsgi_app)
 # app.config['SERVER_NAME'] = '127.0.0.1:5001'
 
 
