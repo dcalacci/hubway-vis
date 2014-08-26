@@ -38,6 +38,7 @@ def top_destinations(node_id):
     tmp_df = df.map(lambda l: float(l)/sum(df))
     n = 0
     items = []
+    # get top 25% of trips & their stations
     for i, row in tmp_df.iteritems():
         if n > 0.25:
             break
@@ -45,4 +46,3 @@ def top_destinations(node_id):
             items.append(i)
             n += row
     return dict(df.ix[items])
-   
