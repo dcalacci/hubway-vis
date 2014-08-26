@@ -33,6 +33,18 @@ body {
     clear: both;
 }
 
+#github-link {
+    z-index: 20;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+a {
+    color: rgba(213, 213, 213, 0.75);
+    /* text-style: none; */
+}
+
 #info-bar {
     min-height: 20%;
     max-height: 20%;
