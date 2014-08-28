@@ -19,8 +19,8 @@ trips.end_station = trips.end_station.map(str)
 def get_trips_for_date(d):
     start_trips = trips[trips.start_date == d].start_station
     end_trips = trips[trips.end_date == d].end_station
-    return {'starting': list(start_trips),
-            'ending': list(end_trips)}
+    return (list(start_trips),
+            list(end_trips))
 
 
 start_date = sorted(trips.start_date)[0]
@@ -28,9 +28,13 @@ end_date = sorted(trips.end_date)[-1]
 timerange = pd.date_range(start_date, end_date, freq='min')
 
 
-
-
 starting_ending = timerange.map(get_trips_for_date)
 
-starting_ending.to_csv('trip_timeseries.csv',
-					   sep="\t")
+# separate into two lists
+starting, ending = zip(*starting_ending)
+
+res = pd.DataFrame({'date': timerange,
+					'starting': starting,
+					'ending': ending})
+
+res.to_csv('trip_timeseries.csv')
