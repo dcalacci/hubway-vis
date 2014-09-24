@@ -16,6 +16,7 @@
     <script src="https://raw.githubusercontent.com/mbostock/d3/master/lib/colorbrewer/colorbrewer.js"></script>
     <script>
       $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+      $STATIC_DIR = {{url_for('static', filename='')}};
     </script>
   </head>
   <body>
