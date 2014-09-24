@@ -9,13 +9,10 @@ def convert_to_epoch(dt):
     return time.mktime(dt.timetuple()) * 1000
 
 
-stations = pd.read_csv(url_for('static',
-                               file_name='data/stations_10_12_to_11_13.csv'),
+stations = pd.read_csv('static/data/stations_10_12_to_11_13.csv',
                        index_col=0)
 
-
-trips = pd.read_csv(url_for('static',
-                            file_name='data/hubwaydata_10_12_to_11_13.csv'),
+trips = pd.read_csv('static/data/hubwaydata_10_12_to_11_13.csv',
                     index_col=0,
                     parse_dates=['start_date', 'end_date'])
 

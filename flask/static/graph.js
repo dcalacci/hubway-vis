@@ -46,7 +46,7 @@ function rgba(c) {
 
 
 sigma.parsers.gexf(
-    $STATIC_DIR + 'static/trips_gephi.gexf',
+    $STATIC_DIR + 'trips_gephi.gexf',
     s,
     function(s) {
         // this below adds x, y attributes as well as size = degree of the node 
