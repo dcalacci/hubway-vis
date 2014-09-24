@@ -6,7 +6,7 @@ from hubway_viz import app
 stations = pd.read_csv(url_for('static', file_name='data/stations_10_12_to_11_13.csv'),
                        index_col=0)
 
-trips = pd.read_csv(url_for('static', file_name='data/hubwaydata_10_12_to_11_13.csv',)
+trips = pd.read_csv(url_for('static', file_name='data/hubwaydata_10_12_to_11_13.csv'),
                     index_col=0,
                     parse_dates=['start_date', 'end_date'])
 
