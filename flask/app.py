@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
-from reverse_proxied import ReverseProxied
 import hubway_utils
 import time
 import json
