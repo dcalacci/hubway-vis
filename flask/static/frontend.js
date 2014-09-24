@@ -13,12 +13,12 @@ function updateStationInfo(node_id) {
                                          });
               fade = $.Deferred();
               $('#line-graph-container').fadeToggle(500, function() {
-//                updateTimeSeries(node_id, fade);
-//                console.log('fading out...');
+                updateTimeSeries(node_id, fade);
+                console.log('fading out...');
               });
               $.when(fade).done(function() {
                 $('#line-graph-container').fadeToggle(500);
-//                console.log('fading in...');
+                console.log('fading in...');
               })
               $('#station-info').show('slide', {direction: 'left'}, 500);
 
@@ -30,6 +30,7 @@ function updateTimeSeries(node_id, fade) {
     $.get($SCRIPT_ROOT + '/get_station_timeseries',
           {'nodeid': node_id},
           function(data) {
+	      console.log("updating station timeseries for node: " + node_id);
               renderGraph(data['res'], fade);
           });
 }

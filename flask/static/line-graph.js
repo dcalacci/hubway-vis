@@ -1,5 +1,3 @@
-
-
 var parseDate = d3.time.format("%Y-%m-%d").parse;
 
 
@@ -8,6 +6,7 @@ var line = d3.svg.line()
     .y(function(d) { return y(d.numtrips); });
 
 function renderGraph(data, fade) {
+    console.log("rendering graph for data: " + data)
 
   // chart dimensions
 
