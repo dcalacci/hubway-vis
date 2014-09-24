@@ -5,9 +5,6 @@ import time
 import json
 
 app = Flask(__name__)
-app.wsgi_app = ReverseProxied(app.wsgi_app)
-# app.config['SERVER_NAME'] = '127.0.0.1:5001'
-
 
 def convert_to_epoch(dt):
     return time.mktime(dt.timetuple()) * 1000

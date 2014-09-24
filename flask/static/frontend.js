@@ -1,4 +1,5 @@
 function updateStationInfo(node_id) {
+    console.log('updating station info for node id: ' + node_id);
     $.get($SCRIPT_ROOT + '/get_station_info',
           {'nodeid': node_id},
           function(data) {
@@ -25,11 +26,11 @@ function updateStationInfo(node_id) {
           });
 }
 
-function updateTimeSeries(node_id, fade) {
+function getTimeSeries(node_id, fade) {
     $.get($SCRIPT_ROOT + '/get_station_timeseries',
           {'nodeid': node_id},
           function(data) {
-            renderGraph(data['res'], fade);
+            return data;
           });
 }
 
@@ -56,5 +57,3 @@ $(function() {
     });
     $(window).resize();
 });
-
-
