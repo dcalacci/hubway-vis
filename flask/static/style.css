@@ -49,7 +49,7 @@ a {
     min-height: 20%;
     max-height: 20%;
     min-width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: rgba(120, 120, 120, 0.65);
     z-index: 10;
@@ -88,10 +88,16 @@ a {
 
 #line-graph-container {
     position: absolute;
+    width: 55%;
     top: 0px;
     height: 100%;
     z-index: -1;
 }
+
+svg {
+    width: 100%;
+}
+
 
 .axis path,
 .axis line {
