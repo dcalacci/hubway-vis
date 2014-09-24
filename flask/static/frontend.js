@@ -13,7 +13,7 @@ function updateStationInfo(node_id) {
                                          });
               fade = $.Deferred();
               $('#line-graph-container').fadeToggle(500, function() {
-                updateTimeSeries(node_id, fade);
+//                updateTimeSeries(node_id, fade);
 //                console.log('fading out...');
               });
               $.when(fade).done(function() {

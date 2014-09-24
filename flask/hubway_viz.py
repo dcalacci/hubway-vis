@@ -1,18 +1,20 @@
 from flask import Flask, render_template, request, url_for, jsonify
 import pandas as pd
 import time
+import os
 
 app = Flask(__name__)
 
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def convert_to_epoch(dt):
     return time.mktime(dt.timetuple()) * 1000
 
 
-stations = pd.read_csv('static/data/stations_10_12_to_11_13.csv',
+stations = pd.read_csv('/var/www/hubway-vis/flask/static/data/stations_10_12_to_11_13.csv',
                        index_col=0)
 
-trips = pd.read_csv('static/data/hubwaydata_10_12_to_11_13.csv',
+trips = pd.read_csv('/var/www/hubway-vis/flask/static/data/hubwaydata_10_12_to_11_13.csv',
                     index_col=0,
                     parse_dates=['start_date', 'end_date'])
 
