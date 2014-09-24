@@ -26,6 +26,14 @@ function updateStationInfo(node_id) {
           });
 }
 
+function updateTimeSeries(node_id, fade) {
+    $.get($SCRIPT_ROOT + '/get_station_timeseries',
+          {'nodeid': node_id},
+          function(data) {
+              renderGraph(data['res'], fade);
+          });
+}
+
 function getTimeSeries(node_id, fade) {
     $.get($SCRIPT_ROOT + '/get_station_timeseries',
           {'nodeid': node_id},
